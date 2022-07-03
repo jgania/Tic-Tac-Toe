@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container justify-content-center text-center">
+        <br>
+        <br>
+        <h1>TIC TAC TOE</h1>
+        <h2 class="playerTurn">It is X's turn</h2>
+            <div class="board text-center" id="board">
+                <div class="row justify-content-center">
+                    <div class="block col-4 left top" id="block_0" ></div>
+                    <div class="block col-4 middle top" id="block_1" ></div>
+                    <div class="block col-4 right top" id="block_2" ></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="block col-4 left mid" id="block_3" ></div>
+                    <div class="block col-4 middle mid" id="block_4" ></div>
+                    <div class="block col-4 right mid" id="block_5" ></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="block col-4 left bottom" id="block_6" ></div>
+                    <div class="block col-4 middle bottom" id="block_7" ></div>
+                    <div class="block col-4 right bottom" id="block_8" ></div>
+                </div>
+            </div>
+            <div class="btn btn-secondary mt-4 reset">Restart Game</div>
+
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

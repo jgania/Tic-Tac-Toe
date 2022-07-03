@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/0f/30/a6/0f30a6bb78f34a00185cc410864f003e.jpg);
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.block {
+    height: 100px;
+    width: 100px;
+}
+
+.left {
+    border-right: 5px white solid;
+}
+
+.right {
+    border-left: 5px white solid;
+}
+
+.top {
+    border-bottom: 5px white solid;
+
+}
+
+.bottom {
+    border-top: 5px white solid;
+}
